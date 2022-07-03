@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Extension",
+    "content_scripts": [
+        {
+            "matches": ["https://npdot9.csb.app/"],
+            "js": ["main.js"]
+        }
+    ]
+}
